@@ -12,7 +12,14 @@ public class Main {
     }
 
     private static void task8() {
-
+     int salary = 29000;
+     int total = 0;
+     for (int i = 0; total < 400000; i++) {
+         total = total + total/100;
+         total = total + salary;
+         System.out.println(" Месяц  " + i + "Итого " +  total );
+     }
+        System.out.println(total);
     }
 
     private static void task7() {
